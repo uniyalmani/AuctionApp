@@ -1,5 +1,11 @@
 # AuctionApp
 Biding for diffrent auction 
+```
+{
+adminemail-> nitinuniyal21@gmail.com
+password -> 9410197255
+}
+```
 
 ## admin routes 
 admin login 
