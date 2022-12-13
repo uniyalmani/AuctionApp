@@ -1,5 +1,6 @@
 # AuctionApp
 Biding for diffrent auction 
+admin email and password for geting token for creating auction
 ```
 {
 adminemail-> nitinuniyal21@gmail.com
@@ -7,9 +8,9 @@ password -> 9410197255
 }
 ```
 
-## admin routes 
-admin login 
-method --> post --> /login/admin
+# admin routes 
+* **admin login**
+* method --> **post** --> **/login/admin**
 request body 
 ```
 {
@@ -17,9 +18,9 @@ request body
     password:str
 }
 ```
-create auction 
-header token reuired for autherization
-method --> post ->  /create_auction
+* **create auction** 
+** header token reuired for autherization**
+* method --> **post ->**  **/create_auction**
 request body 
 ```
 {
@@ -33,10 +34,10 @@ request body
 ```
 
 ---------------------------
-## common user routes 
+# common user routes 
 
-common user sign up
-method -> post -> /signup
+* **common user sign up**
+* method -> **post ->**  **/signup**
 requestbody - > 
 ```
 {
@@ -45,8 +46,8 @@ requestbody - >
     password:str
 }
 ```
-common user login 
-method -> post --> /login/user
+* **common user login**
+* method -> **post -->**  **/login/user**
 requsestbody ->
 ```
 {
@@ -54,16 +55,16 @@ requsestbody ->
     password:str
 }
 ```
-common method for geting all bids for an auction no autherization required 
-method get --> /auction_offered_bids/{auction_id}
+* common method for geting all bids for an auction **no autherization required**
+* method **get -->**  **/auction_offered_bids/{auction_id}**
 
-common method no authentication reuired 
-list all auction 
-method get --> /all_auction
+* common method **no authentication reuired **
+* **list all auction **
+* method **get -->** **/all_auction**
 
 
-user method offer bit header token required for autherization 
-method -> post -> /offer_bid
+* user method offer bit **header token required for autherization**
+* method -> **post -> ** **/offer_bid**
 ```
 {
     offered_amount: float
