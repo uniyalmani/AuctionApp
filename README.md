@@ -12,7 +12,7 @@ password -> 9410197255
 ```
 
 # admin routes 
-* 1**1)** **admin login**
+***1)** **admin login**
 * method --> **post** --> **/login/admin**
 request body 
 ```
@@ -21,7 +21,7 @@ request body
     password:str
 }
 ```
-* **2) ** **create auction** 
+***2)** **create auction** 
 ** header token reuired for autherization**
 * method --> **post ->**  **/create_auction**
 request body 
@@ -49,7 +49,7 @@ requestbody - >
     password:str
 }
 ```
-* **2) ** **common user login**
+* **2)** **common user login**
 * method -> **post -->**  **/login/user**
 requsestbody ->
 ```
@@ -66,7 +66,7 @@ requsestbody ->
 * method **get -->** **/all_auction**
 
 
-*  **5) ** user method offer bit **header token required for autherization**
+***5)** user method offer bit **header token required for autherization**
 * method -> **post -> ** **/offer_bid**
 ```
 {
