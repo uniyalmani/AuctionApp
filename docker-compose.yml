@@ -13,8 +13,8 @@ services:
       - MYSQL_PASSWORD=fynd123 
     ports:
       - "3305:3306"
-    # volumes:
-    #   - /home/nitin/fynd_acad/docker-data/auction/a4:/var/lib/mysql 
+    volumes:
+      - /home/nitin/fynd_acad/docker-data/auction/a4:/var/lib/mysql 
     
     # networks:
     #   - localnet
