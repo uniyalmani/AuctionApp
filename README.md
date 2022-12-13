@@ -61,12 +61,12 @@ requsestbody ->
 * **3)** common method for geting all bids for an auction **no autherization required**
 * method **get -->**  **/auction_offered_bids/{auction_id}**
 
-**4)**common method **no authentication reuired **
+* *4)**common method **no authentication reuired **
 * **list all auction **
 * method **get -->** **/all_auction**
 
 
-***5)** user method offer bit **header token required for autherization**
+* **5)** user method offer bit **header token required for autherization**
 * method -> **post -> ** **/offer_bid**
 ```
 {
