@@ -11,7 +11,7 @@ ENV SECRET_KEY="qwertyuiopasdfghjklzxcvbnmgenratedfjsdfjs"
 ENV ALGORITHM="HS256"
 ENV ACCESS_TOKEN_EXPIRE_MINUTES=50
 ENV NAME="nitin"
-ENV EMAIL="nitinhuniyal21@gmail.com"
+ENV EMAIL="nitinuniyal21@gmail.com"
 ENV PASSWORD=9410197255
 ENV DB_URL="postgresql://encwsezklfjgzf:af5a4ed0df503805cd1cd5aacae46ccd2881ced1d01588916205e71881287ff9@ec2-35-168-194-15.compute-1.amazonaws.com:5432/d9gmak7qi2ssqh"
 
